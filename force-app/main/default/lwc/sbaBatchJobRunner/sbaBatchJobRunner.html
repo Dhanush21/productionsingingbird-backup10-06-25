@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="SBA Batch Job Runner" icon-name="custom:custom63">
+        <lightning-combobox name="sbaBatchJob" label="Batch Job" value={value} placeholder="Select a Batch Job" options={options} onchange={handleChange} ></lightning-combobox>
+        <lightning-button label="Run" title="Run" onclick={handleRun} class="slds-m-top_medium"></lightning-button>
+        <a if:true={jobTriggered} href="/lightning/setup/AsyncApexJobs/home" target="_blank">Check Apex Jobs</a>
+    </lightning-card>
+</template>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="ConsentManagement">
+    <apiVersion>53.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <!-- To use the component in a Lightning App Page -->
+        <target>lightning__AppPage</target>
+        <!-- To use the component in a Lightning Record Page -->
+        <target>lightning__RecordPage</target>
+        <!-- To use the component on Salesforce Community -->
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+</LightningComponentBundle>

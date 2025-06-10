@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 10-13-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+  <!-- <lightning-card title="Consent Management"> -->
+    <lightning-card title="">
+      <div class="slds-m-around_medium">
+          <!-- Submit button centered using SLDS utility classes -->
+          <div class="slds-grid slds-grid_align-center">
+              <!-- <lightning-button label="Process Unique ID from URL and Update Consent" onclick={updateConsentStatus}></lightning-button> -->
+              <lightning-button label="Unsubscribe" onclick={updateConsentStatus}></lightning-button>
+          </div>
+          
+          <!-- Display success or error messages -->
+          <template if:true={message}>
+              <p>{message}</p>
+          </template>
+      </div>
+  </lightning-card>
+</template>
